@@ -1,7 +1,7 @@
 # ************************ Written by Alireza ************************************
 import numpy as np
 import time
-
+import cupy as cp
 # Define the matrix sizes
 matrix_size = 1000
 matrix_a = np.random.rand(matrix_size, matrix_size)
